@@ -36,6 +36,24 @@ email = 'jerry@korea.com'
 age = 35
 
 print( "아이디 : ", user_id)
-print( "비밀번호 : ", user_pw)
+print( f"비밀번호 : {user_id}")
 print( '이메일 : ', email)
 print( '나이 : ', age)
+
+
+#소수점 처리하기
+n1 = 10
+n2 =3
+div = n1/n2
+print(div)
+
+#소수점 특정번째에서 끊어주기
+print(f'결과값 : {div : .1f}') #f앞의 숫자번째까지 나타내기
+
+#반올림 함수 -round (숫자, 자릿수)
+print(round(div,3))
+
+print(f'결과값 : {round(div,3)}')
+
+
+
